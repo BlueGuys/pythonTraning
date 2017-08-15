@@ -66,3 +66,63 @@ js/JDBRN/Trade/.scripts/eslint/eslintcheck.js
 js/JDBRN/User/.scripts/eslint/eslintcheck.js
         if(lineStr && lineStr.indexOf('.png') > -1){
 
+---------------------------------------------------------------------------
+js/JDBRN/Activity/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    avatar: require('./images/avatar.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    comment: require('./images/comment.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    banner: require('./images/default_banner.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    thumb: require('./images/default_thumb.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    defaults: require('./images/default.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Contact/Investment/JDBInvestInfoImages.js
+    view: require('./images/view.png'),
+
+---------------------------------------------------------------------------
+js/JDBRN/Enterprise/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Login/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Pay/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Tab/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Tourist/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/Trade/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
+---------------------------------------------------------------------------
+js/JDBRN/User/.scripts/eslint/eslintcheck.js
+        if(lineStr && lineStr.indexOf('.png') > -1){
+
