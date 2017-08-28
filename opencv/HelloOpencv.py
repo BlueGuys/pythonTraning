@@ -45,20 +45,20 @@ def read_capture():
         # Capture frame-by-frame
         ret, frame = cap.read()
 
-        # Our operations on the frame come here
+        # Our operations on the frame come hereq
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         # Display the resulting frame
         cv2.imshow('frame', gray)
-        if cv2.waitKey(1) & 0xFF == ord('q'):  # wait for ESC key to exit
-            cv2.imwrite('./wangning.jpg', frame)
+        if cv2.waitKey(10) & 0xFF == ord('q'):  # wait for ESC key to exit
+            cv2.imwrite('./wangning1.jpg', frame)
             cv2.destroyAllWindows()
             break
     # When everything done, release the capture
     cap.release()
     cv2.destroyAllWindows()
 
-# read_capture()
+read_capture()
 
 
 
