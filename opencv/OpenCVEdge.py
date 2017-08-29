@@ -3,15 +3,13 @@
 
 
 import cv2
-import numpy as np
 from matplotlib import pyplot
 
 # 加载图片
-img = cv2.imread('./a01.jpg')
-
 # 转换为灰度图像
+img = cv2.imread('./lzs.jpg')
+print img.shape
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
 # 移除noisy
 img1 = cv2.GaussianBlur(gray, (3, 3), 0)
 

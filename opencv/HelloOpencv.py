@@ -8,7 +8,7 @@ import cv2
 # 图像的读取
 def read_image():
     # 读取图像获得图像引用
-    img = cv2.imread('./a01.jpg')
+    img = cv2.imread('./lzs.jpg')
     # 展示图片 (窗口名称,图片引用)
     cv2.imshow('Hello', img)
     print img.shape
@@ -26,7 +26,7 @@ def read_image():
 # 图像的保存
 def save_image():
     # 读取图像获得图像引用
-    img = cv2.imread('./a01.jpg', 0)
+    img = cv2.imread('./lzs.jpg', 0)
     # 保存图像(路径，引用)
     cv2.imwrite('./a02.jpg', img)
     # 第三个参数针对特定的格式：
@@ -58,7 +58,7 @@ def read_capture():
     cap.release()
     cv2.destroyAllWindows()
 
-read_capture()
+# read_capture()
 
 
 
