@@ -4,12 +4,8 @@ import cv2
 
 reload(sys)
 sys.setdefaultencoding('utf8')
-#    __author__ = '郭 璞'
-#    __date__ = '2016/9/5'
-#    __Desc__ = 人脸检测小例子，以圆圈圈出人脸
-# 待检测的图片路径
 
-imagepath = './lzs.jpg'
+imagepath = './a01.jpg'
 
 # 获取训练好的人脸的参数数据，这里直接从GitHub上使用默认值
 face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')

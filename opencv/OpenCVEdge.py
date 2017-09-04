@@ -7,7 +7,7 @@ from matplotlib import pyplot
 
 # 加载图片
 # 转换为灰度图像
-img = cv2.imread('./lzs.jpg')
+img = cv2.imread('./a01.jpg')
 print img.shape
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # 移除noisy
